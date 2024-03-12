@@ -1,4 +1,7 @@
 .display {
-  background-color: red;
   height: 30%;
+  width: 100%;
+  border: 1px solid green;
+  border-radius: 20px;
+  font-size: 64px;
 }
