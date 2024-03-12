@@ -1,7 +1,7 @@
 import '../styles/Key.css'
+import PropTypes from 'prop-types'
 
-export const Key = (props) => {
-  const {label} = props;
+export const Key = ({label}) => {
   const showBtnValue = (e) => {
     console.log(e.target.value*10)
   }
@@ -15,4 +15,8 @@ export const Key = (props) => {
       </button>
     </div>
   )
+}
+
+Key.propTypes = {
+  label: PropTypes.string.isRequired
 }
