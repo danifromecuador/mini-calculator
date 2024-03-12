@@ -1,0 +1,18 @@
+.key {
+  width: 25%;
+  height: 25%;
+  border: aqua;
+  display: flex;
+  justify-content: center;
+}
+
+.key button {
+  width: 80%;
+  height: 100%;
+  background-color: transparent;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}

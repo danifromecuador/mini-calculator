@@ -1,3 +1,5 @@
+import '../styles/Key.css'
+
 export const Key = (props) => {
   const {label} = props;
   const showBtnValue = (e) => {
