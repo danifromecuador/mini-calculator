@@ -18,5 +18,5 @@ export const Key = ({label}) => {
 }
 
 Key.propTypes = {
-  label: PropTypes.string.isRequired
+  label: PropTypes.oneOf([PropTypes.number, PropTypes.string]).isRequired,
 }
