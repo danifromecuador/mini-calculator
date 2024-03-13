@@ -3,15 +3,7 @@ import '../styles/Display.css'
 
 
 export const Display = () => {
-  const [result, setResult] = useState(0);
-   useEffect(() => {
-    setResult(9999);
-    if (result > 999) {
-      setResult("too big")
-    }
-  }, []);
-
-  
+  let result = 42
   return (
     <div className="display">
       {result}
